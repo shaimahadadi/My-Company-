@@ -16,7 +16,10 @@ courses:
     mode: online
     seats: 80
     start_date: 2026-12-15
-    session_time: null   # وقت الجلسات لم يُحدد بعد
+    session_time: "19:00"   # بتوقيت الرياض
+    session_hours: 2
+    sessions_count: null     # 15 ساعة ÷ ساعتين = 7.5 جلسات، بانتظار قرار المدرب
+    session_days: null       # أيام الجلسات لم تُحدد بعد
 
   - id: microsoft-excel
     name: دورة مايكروسوفت إكسل
@@ -26,7 +29,10 @@ courses:
     duration_hours: 15
     mode: online
     seats: 80
-    start_date: 2026-12-15
-    session_time: null
+    start_date: 2026-12-29
+    session_time: "19:00"
+    session_hours: 2
+    sessions_count: null
+    session_days: null
 
 # لا توجد دورات في قسم الدورات الشخصية بعد.
