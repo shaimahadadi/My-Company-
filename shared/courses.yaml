@@ -18,7 +18,9 @@ courses:
     start_date: 2026-12-15
     session_time: "19:00"   # بتوقيت الرياض
     session_hours: 2
-    sessions_count: null     # 15 ساعة ÷ ساعتين = 7.5 جلسات، بانتظار قرار المدرب
+    sessions_count: 8        # 7 جلسات بساعتين + جلسة أخيرة بساعة = 15 ساعة
+    last_session_hours: 1
+    end_date: 2026-12-24
     session_days: [sun, mon, tue, wed, thu]   # كل يوم عدا الجمعة والسبت
 
   - id: microsoft-excel
@@ -32,7 +34,9 @@ courses:
     start_date: 2026-12-29
     session_time: "19:00"
     session_hours: 2
-    sessions_count: null
+    sessions_count: 8
+    last_session_hours: 1
+    end_date: 2027-01-07
     session_days: [sun, mon, tue, wed, thu]
 
 # لا توجد دورات في قسم الدورات الشخصية بعد.
