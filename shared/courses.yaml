@@ -19,7 +19,7 @@ courses:
     session_time: "19:00"   # بتوقيت الرياض
     session_hours: 2
     sessions_count: null     # 15 ساعة ÷ ساعتين = 7.5 جلسات، بانتظار قرار المدرب
-    session_days: null       # أيام الجلسات لم تُحدد بعد
+    session_days: daily      # كل يوم
 
   - id: microsoft-excel
     name: دورة مايكروسوفت إكسل
@@ -33,6 +33,6 @@ courses:
     session_time: "19:00"
     session_hours: 2
     sessions_count: null
-    session_days: null
+    session_days: daily
 
 # لا توجد دورات في قسم الدورات الشخصية بعد.
