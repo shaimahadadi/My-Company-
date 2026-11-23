@@ -10,23 +10,23 @@ courses:
   - id: generative-ai
     name: دورة الذكاء الاصطناعي التوليدي
     section: technical
-    trainer: null        # المؤسس أو المدرب الثاني
-    price_sar: null
+    trainer: شيماء حدادي
+    price_sar: 299
     duration_hours: 15
     mode: online
     seats: 80
-    start_month: 2026-12   # اليوم بالتحديد لم يُحدد بعد
-    schedule: []         # مثال: - { start: 2026-12-01, time: "18:00" }
+    start_date: 2026-12-15
+    session_time: null   # وقت الجلسات لم يُحدد بعد
 
   - id: microsoft-excel
     name: دورة مايكروسوفت إكسل
     section: technical
-    trainer: null
-    price_sar: null
+    trainer: شيماء حدادي
+    price_sar: 299
     duration_hours: 15
     mode: online
     seats: 80
-    start_month: 2026-12   # اليوم بالتحديد لم يُحدد بعد
-    schedule: []
+    start_date: 2026-12-15
+    session_time: null
 
 # لا توجد دورات في قسم الدورات الشخصية بعد.
