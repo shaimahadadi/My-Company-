@@ -12,9 +12,10 @@ courses:
     section: technical
     trainer: null        # المؤسس أو المدرب الثاني
     price_sar: null
-    duration_hours: null
-    mode: null           # حضوري أو أونلاين
-    seats: null
+    duration_hours: 15
+    mode: online
+    seats: 80
+    start_month: 2026-12   # اليوم بالتحديد لم يُحدد بعد
     schedule: []         # مثال: - { start: 2026-12-01, time: "18:00" }
 
   - id: microsoft-excel
@@ -22,9 +23,10 @@ courses:
     section: technical
     trainer: null
     price_sar: null
-    duration_hours: null
-    mode: null
-    seats: null
+    duration_hours: 15
+    mode: online
+    seats: 80
+    start_month: 2026-12   # اليوم بالتحديد لم يُحدد بعد
     schedule: []
 
 # لا توجد دورات في قسم الدورات الشخصية بعد.
