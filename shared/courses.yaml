@@ -1,0 +1,42 @@
+# الدورات المعتمدة: المصدر الوحيد للأسعار والمواعيد.
+# كل الوكلاء يقرأون من هذا الملف، ولا يعدّله إلا المؤسس.
+# القيم null لم يحددها المؤسس بعد، وما يذكرها أي وكيل لمتدرب حتى تتعبأ.
+
+sections:
+  personal: الدورات الشخصية
+  technical: الدورات التقنية
+
+courses:
+  - id: generative-ai
+    name: دورة الذكاء الاصطناعي التوليدي
+    section: technical
+    trainer: شيماء حدادي
+    price_sar: 299
+    duration_hours: 15
+    mode: online
+    seats: 80
+    start_date: 2026-12-15
+    session_time: "19:00"   # بتوقيت الرياض
+    session_hours: 2
+    sessions_count: 8        # 7 جلسات بساعتين + جلسة أخيرة بساعة = 15 ساعة
+    last_session_hours: 1
+    end_date: 2026-12-24
+    session_days: [sun, mon, tue, wed, thu]   # كل يوم عدا الجمعة والسبت
+
+  - id: microsoft-excel
+    name: دورة مايكروسوفت إكسل
+    section: technical
+    trainer: شيماء حدادي
+    price_sar: 299
+    duration_hours: 15
+    mode: online
+    seats: 80
+    start_date: 2026-12-29
+    session_time: "19:00"
+    session_hours: 2
+    sessions_count: 8
+    last_session_hours: 1
+    end_date: 2027-01-07
+    session_days: [sun, mon, tue, wed, thu]
+
+# لا توجد دورات في قسم الدورات الشخصية بعد.
