@@ -1,0 +1,30 @@
+# الدورات المعتمدة: المصدر الوحيد للأسعار والمواعيد.
+# كل الوكلاء يقرأون من هذا الملف، ولا يعدّله إلا المؤسس.
+# القيم null لم يحددها المؤسس بعد، وما يذكرها أي وكيل لمتدرب حتى تتعبأ.
+
+sections:
+  personal: الدورات الشخصية
+  technical: الدورات التقنية
+
+courses:
+  - id: generative-ai
+    name: دورة الذكاء الاصطناعي التوليدي
+    section: technical
+    trainer: null        # المؤسس أو المدرب الثاني
+    price_sar: null
+    duration_hours: null
+    mode: null           # حضوري أو أونلاين
+    seats: null
+    schedule: []         # مثال: - { start: 2026-12-01, time: "18:00" }
+
+  - id: microsoft-excel
+    name: دورة مايكروسوفت إكسل
+    section: technical
+    trainer: null
+    price_sar: null
+    duration_hours: null
+    mode: null
+    seats: null
+    schedule: []
+
+# لا توجد دورات في قسم الدورات الشخصية بعد.

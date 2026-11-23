@@ -1,0 +1,13 @@
+name: ورد
+role: وكيلة المحتوى
+reports_to: abdullah-operations
+prompt: prompt.md
+reads:
+  - shared/courses.yaml
+  - shared/escalation-rules.md
+tools:
+  materials_folder: read_write
+cannot:
+  - mark_material_final_without_approval
+schedule:
+  weekly_batch: wednesday
